@@ -1,0 +1,37 @@
+crafting:
+  1: GOLD_INGOT
+  2: GOLD_INGOT
+  3: GOLD_INGOT
+  4: GOLD_INGOT
+  5: GOLDEN_APPLE
+  6: GOLD_INGOT
+  7: GOLD_INGOT
+  8: GOLD_INGOT
+  9: GOLD_INGOT
+
+mutant:
+  name: "&6&lMutanted Apple"
+  lore:
+    - 'Jabuszko mocy XD'
+     
+sila:
+  moc: 1
+  czas: 10
+  
+ 
+aps:
+  moc: 8
+  czas: 10
+   
+speed:
+  moc: 2
+  czas: 10
+  
+ 
+fire:
+  moc: 5
+  czas: 10
+     
+regen:
+  moc: 5
+  czas: 10
