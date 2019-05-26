@@ -27,7 +27,7 @@ public class Eat implements Listener{
 				p.addPotionEffect(new PotionEffect(PotionEffectType.REGENERATION, 20*Config.REGEN_TIME, Config.REGEN_MOC));
 				p.addPotionEffect(new PotionEffect(PotionEffectType.FIRE_RESISTANCE, 20*Config.FIRE_TIME, Config.FIRE_MOC));
 				p.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 20*Config.SPEED_TIME, Config.SPEED_MOC));
-				ItemStack toRemove = new ItemStack(e.getItem()).clone();
+				ItemStack toRemove = new ItemStack(e.getItem().clone());
 				toRemove.setAmount(1);
 				p.getInventory().removeItem(toRemove);
 			}
